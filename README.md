@@ -1,2 +1,24 @@
-# react-native-example-boilerplate
-📦 React Native boilerplate to show examples of your developed RN custom libraries
+# create-react-native-example
+📦 Create React Native examples for RN libraries developed by you
+
+# Installation
+```bash
+npm install create-react-native-example --dev
+```
+
+# Usage
+```bash
+./node_modules/.bin/create-react-native-example MyExampleAppName
+```
+
+# Run
+After that the CLI will create a example React Native project under the ```examples/``` folder where you ran the command. Then:
+
+```bash
+cd MyExampleAppName/ && npm run start
+
+# And in another terminal tab run:
+npm run android
+# or
+npm run ios
+```
