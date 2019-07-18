@@ -4,6 +4,9 @@
 # Installation
 ```bash
 npm install create-react-native-example --dev
+
+# or install globally:
+npm install create-react-native-example --global
 ```
 
 # Usage
