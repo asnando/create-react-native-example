@@ -1,6 +1,6 @@
 {
   "name": "create-react-native-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "📦 Create React Native examples for RN libraries developed by you",
   "main": "src/cli.js",
   "bin": "./src/cli.js",

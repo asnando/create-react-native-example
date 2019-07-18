@@ -79,7 +79,10 @@ const main = () => {
       && npm run ios or npm run android
     `);
   } catch (exception) {
-    fs.unlinkSync(path.join(cwd, 'examples'));
+    const examplePath = path.join(cwd, 'examples');
+    if (fs.existsSync(examplePath)) {
+      fs.unlinkSync(examplePath);
+    }
     throw exception;
   }
 };
